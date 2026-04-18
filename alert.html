@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time Based Greeting</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            margin-top: 120px;
+            background: linear-gradient(to right, #eef2f3, #dfe9f3);
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Welcome 👋</h2>
+    <p>A greeting message will appear based on current time</p>
+
+    <script>
+        let hour = new Date().getHours();
+        let message = "";
+
+        if (hour < 12) {
+            message = "Good Morning Vidhi ☀️";
+        } 
+        else if (hour < 18) {
+            message = "Good Afternoon Vidhi 🌤️";
+        } 
+        else {
+            message = "Good Evening Vidhi 🌙";
+        }
+
+        alert(message);
+    </script>
+
+</body>
+</html>
