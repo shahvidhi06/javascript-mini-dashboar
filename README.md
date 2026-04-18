@@ -1,2 +1,2 @@
-# javascript-mini-dashboar
+# javascript-mini-dashboard
 A collection of web development internship tasks built using HTML, CSS, and JavaScript, including interactive UI components, forms, and mini projects
